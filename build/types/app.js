@@ -47,7 +47,7 @@ var Status;
 /* Запрос */
 // {
 // 	"topicId": 5,
-// 	"status": "published" // "draft", "deleted"
+// 	"status": "published" // "draft", "deleted" - опциональный параметр
 // }
 /* Ответ */
 // [
