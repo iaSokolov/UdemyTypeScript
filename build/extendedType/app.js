@@ -83,3 +83,58 @@ let responseError = {
         errorCode: 4
     }
 };
+// Type Guard 
+function isResponseSuccess(res) {
+    return res.status == ResponseStatus.Success;
+}
+function getDatabaseId(res) {
+    if (isResponseSuccess(res)) {
+        return res.data.databaseId;
+    }
+    else {
+        throw Error(res.data.errorMessage);
+    }
+}
+// Void - пустое значение, в функциях 
+function getVoid() {
+    console.log('void function');
+}
+// Unknown
+let exampleUnknown = 1; // может быть любым типом
+// let exampleString: string = exampleUnknown; - не можем так сделать 
+//let exampleAny: any = exampleUnknown; - там можно сделать 
+// Never 
+function exampleNeverFunction() {
+    while (true) {
+    }
+}
+function exampleNeverFunctionWithCheck(type) {
+    switch (type) {
+        case 'typeOne':
+            break;
+        case 'typeTwo':
+            break;
+        default:
+            // если в типе payType будет добавлен еще 
+            // одно значение, то произойдет ошибка 
+            // компиляции, пока мы не добавим дополнительную ветку
+            const _ = type;
+            break;
+    }
+}
+// пример исчерпывающей проверки 
+function check(x) {
+    if (typeof x === 'string') {
+        return true;
+    }
+    else if (typeof x === 'number') {
+        return false;
+    }
+    throw new Error("message"); // тут будет Never - исчерпывающая проверка 
+}
+// Null - присвяивается, если объекта нет, т.е. это осознанный возврат, в то время как undefined является отсутсвием значения
+function getRequets() {
+    return null;
+}
+const nv = getRequets();
+const v = nv === null || nv === void 0 ? void 0 : nv.from;
