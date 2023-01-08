@@ -80,3 +80,21 @@ async function getFaqs(req: { topicId: number, status?: Status }): Promise<{ que
 
     return data;
 }
+
+// index signatures
+class CIndexSignatures { 
+    [key: string]: number; 
+} 
+
+let exampleIndexSignatures = new CIndexSignatures(); 
+exampleIndexSignatures.asdasd = 4; 
+exampleIndexSignatures.c44 = 4; 
+exampleIndexSignatures['44'] = 5;
+
+// keyof typeof конструкция
+let exampleKeyOfTypeOf = {
+    name: 'Ilya', 
+    age: 33
+}
+
+type keysSet = keyof typeof exampleKeyOfTypeOf
