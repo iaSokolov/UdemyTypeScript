@@ -12,7 +12,7 @@ function funWithUnion(param: number | string) {
     }
 }
 
-// Literal Types 
+// Literal Types - указываются только возможные значения для переменной   
 function funWithLiteral(param: 'a' | 'b'): 'A' | 'B' | void {
     switch (param) {
         case "a":
@@ -153,7 +153,8 @@ let responseError: IResponseFailed = {
     }
 }
 
-// Type Guard 
+// Type Guard - функция, которая делает более удобным проверку переменной на тип. 
+// Используется для сужения типа  
 function isResponseSuccess(res: IResponseSuccess | IResponseFailed): res is IResponseSuccess {
     return res.status == ResponseStatus.Success;
 }
@@ -176,14 +177,15 @@ let exampleUnknown: unknown = 1; // может быть любым типом
 // let exampleString: string = exampleUnknown; - не можем так сделать 
 //let exampleAny: any = exampleUnknown; - там можно сделать 
 
-// Never 
+// Never - функция никогда не завершает своё исполнение или выкидывает исключение 
 function exampleNeverFunction() {
     while (true) {
 
     }
 }
 
-// пример использования Never для проверки кода на этапе компиляции 
+// пример использования Never для проверки кода на этапе компиляции. 
+// Никакой логики тут нет, просто для проверки что ничего не поломалось при компиляции.  
 type payType = 'typeOne' | 'typeTwo'
 function exampleNeverFunctionWithCheck(type: payType) {
     switch (type) {
@@ -215,9 +217,18 @@ function check(x: string | number): boolean {
 }
 
 // Null - присвяивается, если объекта нет, т.е. это осознанный возврат, в то время как undefined является отсутсвием значения
-function getRequets(): IRequest | null { 
+function getRequetsNull(): IRequest | null { 
     return null; 
 }
 
-const nv = getRequets(); 
+// пример обращения к свойству того объекта, которого может не быть. 
+// Сделано для того, чтобы не ловить ошибки обращения к nv, в случае если это null
+const nv = getRequetsNull(); 
 const v = nv?.from; 
+
+function getRequetsUndefined(): IRequest | undefined { 
+    return undefined; 
+}
+
+const nv1 = getRequetsUndefined(); 
+const v1 = nv1?.from; 

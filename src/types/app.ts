@@ -98,3 +98,7 @@ let exampleKeyOfTypeOf = {
 }
 
 type keysSet = keyof typeof exampleKeyOfTypeOf
+
+// использование keyof typeof
+let v1OfKeysSet: keysSet = "age"
+let v2OfKeysSet: keysSet = "name"

@@ -55,7 +55,7 @@ interface IForm {
 }
 
 type ValidationForm<Type> = {
-    [Property in keyof Type]: { isValid: true } | { isValid: false, errorMessage?: string };
+    [Property in keyof Type]: { isValid: true } | { isValid: false, errorMessage?: string }; // для каждого свойства можно указать два разных типа 
 };
 
 let sampleIForm: IForm = {

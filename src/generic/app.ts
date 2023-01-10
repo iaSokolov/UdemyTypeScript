@@ -19,17 +19,18 @@ function getStringFromGeneric<T>(value: T): string | undefined {
 }
 
 // использование generic в типах 
+type keyType = {
+    value: string,
+    version: number
+}
+
 type genType<T> = {
     begin: Date,
     end: Date,
     key: T
 }
 
-
-type keyType = {
-    value: string,
-    version: number
-}
+// инициализация типа 
 const genValue: genType<keyType> = {
     begin: new Date(),
     end: new Date,
@@ -51,6 +52,7 @@ type sortenObject = {
     id: number
 }
 
+// пример сужения generic типа через extends
 function sortGenValue<T extends Array<sortenObject>>(params: T, order: 'up' | 'down'): T {
     switch (order) {
         case "up":
@@ -85,7 +87,9 @@ class GenericResponseChild extends GenericResponseBase<number> {
 
 }
 
-// mixins
+// mixins - способ создания нового класса (типа),
+// который объединяет два разных класса. 
+// Является заменой множественного наследования. 
 type CMixin<T> = new (...params: any[]) => T
 
 class Cm1 {
