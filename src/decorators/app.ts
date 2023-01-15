@@ -1,12 +1,13 @@
-function createdAt(target: Function) { 
-    let date = new Date 
-    console.log(`Object created at ${date.toString()}`)
+function CreatedAt<T extends { new(...args: any[]): {} }>(constructor: T) {
+
+    return class extends constructor {
+        public createdAt = new Date()
+    }
 }
 
-
-@createdAt
-class DecoratorClass{ 
+@CreatedAt
+class DecoratorClass {
     constructor(public name: String) { }
 }
 
-console.log(`name: ${new DecoratorClass("test").name}`); 
+console.log(new DecoratorClass("test"));
