@@ -1,0 +1,17 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "Example CRUD service",
+  "main": "index.ts",
+  "scripts": {
+    "start": "ts-node ./src/app.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node": "^10.9.1"
+  },
+  "dependencies": {
+    "@types/node": "^18.11.18"
+  }
+}
