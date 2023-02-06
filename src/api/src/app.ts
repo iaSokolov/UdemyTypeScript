@@ -1,48 +1,19 @@
 import express, { Request, Response, NextFunction } from 'express';
+import Recruitment from './app/recruitment/app';
+import IResponse from './app/recruitment/model/IResponse';
+import AppRequest from './app/recruitment/model/Request';
+import bodyParser from 'body-parser';
 
 const app = express();
 const port = 3000;
 
-interface LocationWithTimezone {
-    location: string;
-    timezoneName: string;
-    timezoneAbbr: string;
-    utcOffset: number;
-};
+app.use(bodyParser.json());
 
-const getLocationsWithTimezones = (request: Request, response: Response, next: NextFunction) => {
-    let locations: LocationWithTimezone[] = [
-        {
-            location: 'Germany',
-            timezoneName: 'Central European Time',
-            timezoneAbbr: 'CET',
-            utcOffset: 1
-        },
-        {
-            location: 'China',
-            timezoneName: 'China Standard Time',
-            timezoneAbbr: 'CST',
-            utcOffset: 8
-        },
-        {
-            location: 'Argentina',
-            timezoneName: 'Argentina Time',
-            timezoneAbbr: 'ART',
-            utcOffset: -3
-        },
-        {
-            location: 'Japan',
-            timezoneName: 'Japan Standard Time',
-            timezoneAbbr: 'JST',
-            utcOffset: 9
-        }
-    ];
+app.get('/succerss', new Recruitment().getSuccess);
+app.get('/error', new Recruitment().getError);
 
-    response.status(200).json(locations);
-};
-
-app.get('/timezones', getLocationsWithTimezones);
+app.post<{}, IResponse, AppRequest>('/app-recruitment/json-rpc/recruitment', new Recruitment().postRequest) 
 
 app.listen(port, () => {
-    console.log(`Timezones by location application is running on port ${port}.`);
+    console.log(`Application is running on port ${port}`);
 });
