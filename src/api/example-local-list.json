@@ -1,0 +1,1094 @@
+{
+  "data": {
+    "data": [
+      {
+        "entryId": 6539,
+        "attrVals": [
+          {
+            "attr": {
+              "id": 75,
+              "name": "Код",
+              "dictId": 55,
+              "primary": true,
+              "code": "CODE"
+            },
+            "value": "00"
+          },
+          {
+            "attr": {
+              "id": 76,
+              "name": "Краткое наименование",
+              "dictId": 55,
+              "primary": false,
+              "code": "SHORTNAME"
+            },
+            "value": "В офисе"
+          },
+          {
+            "attr": {
+              "id": 77,
+              "name": "Тип рабочего места",
+              "dictId": 55,
+              "primary": false,
+              "code": "TYPE"
+            },
+            "value": "В офисе"
+          },
+          {
+            "attr": {
+              "id": 78,
+              "name": "Подробное описание",
+              "dictId": 55,
+              "primary": false,
+              "code": "FULLNAME"
+            },
+            "value": "Постоянная работа в офисе"
+          },
+          {
+            "attr": {
+              "id": 81,
+              "name": "Код типа рабочего места",
+              "dictId": 55,
+              "primary": false,
+              "code": "TYPE_CODE"
+            },
+            "value": ""
+          },
+          {
+            "attr": {
+              "id": 251,
+              "name": "Бейдж/Тег",
+              "dictId": 55,
+              "primary": false,
+              "code": "BADGE"
+            },
+            "value": ""
+          },
+          {
+            "attr": {
+              "id": 252,
+              "name": "Подпись на текущую дату",
+              "dictId": 55,
+              "primary": false,
+              "code": "TITLE_PRESENT"
+            },
+            "value": ""
+          },
+          {
+            "attr": {
+              "id": 253,
+              "name": "Приоритет вывода",
+              "dictId": 55,
+              "primary": false,
+              "code": "PRIORITY"
+            },
+            "value": ""
+          },
+          {
+            "attr": {
+              "id": 254,
+              "name": "Период",
+              "dictId": 55,
+              "primary": false,
+              "code": "PERIOD"
+            },
+            "value": ""
+          },
+          {
+            "attr": {
+              "id": 255,
+              "name": "Формат даты",
+              "dictId": 55,
+              "primary": false,
+              "code": "DATE_FORMAT"
+            },
+            "value": ""
+          }
+        ]
+      },
+      {
+        "entryId": 6540,
+        "attrVals": [
+          {
+            "attr": {
+              "id": 75,
+              "name": "Код",
+              "dictId": 55,
+              "primary": true,
+              "code": "CODE"
+            },
+            "value": "01"
+          },
+          {
+            "attr": {
+              "id": 76,
+              "name": "Краткое наименование",
+              "dictId": 55,
+              "primary": false,
+              "code": "SHORTNAME"
+            },
+            "value": "Дистанционный труд"
+          },
+          {
+            "attr": {
+              "id": 77,
+              "name": "Тип рабочего места",
+              "dictId": 55,
+              "primary": false,
+              "code": "TYPE"
+            },
+            "value": "Дистанционный труд"
+          },
+          {
+            "attr": {
+              "id": 78,
+              "name": "Подробное описание",
+              "dictId": 55,
+              "primary": false,
+              "code": "FULLNAME"
+            },
+            "value": "Постоянная дистанционная работа"
+          },
+          {
+            "attr": {
+              "id": 81,
+              "name": "Код типа рабочего места",
+              "dictId": 55,
+              "primary": false,
+              "code": "TYPE_CODE"
+            },
+            "value": "ALL_TIME"
+          },
+          {
+            "attr": {
+              "id": 251,
+              "name": "Бейдж/Тег",
+              "dictId": 55,
+              "primary": false,
+              "code": "BADGE"
+            },
+            "value": "Дистанс"
+          },
+          {
+            "attr": {
+              "id": 252,
+              "name": "Подпись на текущую дату",
+              "dictId": 55,
+              "primary": false,
+              "code": "TITLE_PRESENT"
+            },
+            "value": "удалённо"
+          },
+          {
+            "attr": {
+              "id": 253,
+              "name": "Приоритет вывода",
+              "dictId": 55,
+              "primary": false,
+              "code": "PRIORITY"
+            },
+            "value": "6"
+          },
+          {
+            "attr": {
+              "id": 254,
+              "name": "Период",
+              "dictId": 55,
+              "primary": false,
+              "code": "PERIOD"
+            },
+            "value": "с {startDate} по {endDate}"
+          },
+          {
+            "attr": {
+              "id": 255,
+              "name": "Формат даты",
+              "dictId": 55,
+              "primary": false,
+              "code": "DATE_FORMAT"
+            },
+            "value": "dd.MM"
+          }
+        ]
+      },
+      {
+        "entryId": 6541,
+        "attrVals": [
+          {
+            "attr": {
+              "id": 75,
+              "name": "Код",
+              "dictId": 55,
+              "primary": true,
+              "code": "CODE"
+            },
+            "value": "02"
+          },
+          {
+            "attr": {
+              "id": 76,
+              "name": "Краткое наименование",
+              "dictId": 55,
+              "primary": false,
+              "code": "SHORTNAME"
+            },
+            "value": "Смешанный труд по дням"
+          },
+          {
+            "attr": {
+              "id": 77,
+              "name": "Тип рабочего места",
+              "dictId": 55,
+              "primary": false,
+              "code": "TYPE"
+            },
+            "value": "Смешанный труд"
+          },
+          {
+            "attr": {
+              "id": 78,
+              "name": "Подробное описание",
+              "dictId": 55,
+              "primary": false,
+              "code": "FULLNAME"
+            },
+            "value": "Смешанная дистанционная работа по дням"
+          },
+          {
+            "attr": {
+              "id": 81,
+              "name": "Код типа рабочего места",
+              "dictId": 55,
+              "primary": false,
+              "code": "TYPE_CODE"
+            },
+            "value": "DIFF_WEEKDAYS"
+          },
+          {
+            "attr": {
+              "id": 251,
+              "name": "Бейдж/Тег",
+              "dictId": 55,
+              "primary": false,
+              "code": "BADGE"
+            },
+            "value": "Дистанс"
+          },
+          {
+            "attr": {
+              "id": 252,
+              "name": "Подпись на текущую дату",
+              "dictId": 55,
+              "primary": false,
+              "code": "TITLE_PRESENT"
+            },
+            "value": "удалённо: {days}"
+          },
+          {
+            "attr": {
+              "id": 253,
+              "name": "Приоритет вывода",
+              "dictId": 55,
+              "primary": false,
+              "code": "PRIORITY"
+            },
+            "value": "6"
+          },
+          {
+            "attr": {
+              "id": 254,
+              "name": "Период",
+              "dictId": 55,
+              "primary": false,
+              "code": "PERIOD"
+            },
+            "value": "с {startDate} по {endDate}"
+          },
+          {
+            "attr": {
+              "id": 255,
+              "name": "Формат даты",
+              "dictId": 55,
+              "primary": false,
+              "code": "DATE_FORMAT"
+            },
+            "value": "dd.MM"
+          }
+        ]
+      },
+      {
+        "entryId": 6542,
+        "attrVals": [
+          {
+            "attr": {
+              "id": 75,
+              "name": "Код",
+              "dictId": 55,
+              "primary": true,
+              "code": "CODE"
+            },
+            "value": "03"
+          },
+          {
+            "attr": {
+              "id": 76,
+              "name": "Краткое наименование",
+              "dictId": 55,
+              "primary": false,
+              "code": "SHORTNAME"
+            },
+            "value": "Смешанный, неделя через неделю"
+          },
+          {
+            "attr": {
+              "id": 77,
+              "name": "Тип рабочего места",
+              "dictId": 55,
+              "primary": false,
+              "code": "TYPE"
+            },
+            "value": "Смешанный труд"
+          },
+          {
+            "attr": {
+              "id": 78,
+              "name": "Подробное описание",
+              "dictId": 55,
+              "primary": false,
+              "code": "FULLNAME"
+            },
+            "value": "Смешанная дистанционная работа неделя через неделю"
+          },
+          {
+            "attr": {
+              "id": 81,
+              "name": "Код типа рабочего места",
+              "dictId": 55,
+              "primary": false,
+              "code": "TYPE_CODE"
+            },
+            "value": "WEEK_AFTER_WEEK"
+          },
+          {
+            "attr": {
+              "id": 251,
+              "name": "Бейдж/Тег",
+              "dictId": 55,
+              "primary": false,
+              "code": "BADGE"
+            },
+            "value": "Дистанс"
+          },
+          {
+            "attr": {
+              "id": 252,
+              "name": "Подпись на текущую дату",
+              "dictId": 55,
+              "primary": false,
+              "code": "TITLE_PRESENT"
+            },
+            "value": "удалённо: нед. (1/1)"
+          },
+          {
+            "attr": {
+              "id": 253,
+              "name": "Приоритет вывода",
+              "dictId": 55,
+              "primary": false,
+              "code": "PRIORITY"
+            },
+            "value": "6"
+          },
+          {
+            "attr": {
+              "id": 254,
+              "name": "Период",
+              "dictId": 55,
+              "primary": false,
+              "code": "PERIOD"
+            },
+            "value": "с {startDate} по {endDate}"
+          },
+          {
+            "attr": {
+              "id": 255,
+              "name": "Формат даты",
+              "dictId": 55,
+              "primary": false,
+              "code": "DATE_FORMAT"
+            },
+            "value": "dd.MM"
+          }
+        ]
+      },
+      {
+        "entryId": 6543,
+        "attrVals": [
+          {
+            "attr": {
+              "id": 75,
+              "name": "Код",
+              "dictId": 55,
+              "primary": true,
+              "code": "CODE"
+            },
+            "value": "04"
+          },
+          {
+            "attr": {
+              "id": 76,
+              "name": "Краткое наименование",
+              "dictId": 55,
+              "primary": false,
+              "code": "SHORTNAME"
+            },
+            "value": "Смешанный,две недели через две"
+          },
+          {
+            "attr": {
+              "id": 77,
+              "name": "Тип рабочего места",
+              "dictId": 55,
+              "primary": false,
+              "code": "TYPE"
+            },
+            "value": "Смешанный труд"
+          },
+          {
+            "attr": {
+              "id": 78,
+              "name": "Подробное описание",
+              "dictId": 55,
+              "primary": false,
+              "code": "FULLNAME"
+            },
+            "value": "Смешанная дистанционная работа две недели через две недели"
+          },
+          {
+            "attr": {
+              "id": 81,
+              "name": "Код типа рабочего места",
+              "dictId": 55,
+              "primary": false,
+              "code": "TYPE_CODE"
+            },
+            "value": "WEEK2_AFTER_WEEK2"
+          },
+          {
+            "attr": {
+              "id": 251,
+              "name": "Бейдж/Тег",
+              "dictId": 55,
+              "primary": false,
+              "code": "BADGE"
+            },
+            "value": "Дистанс"
+          },
+          {
+            "attr": {
+              "id": 252,
+              "name": "Подпись на текущую дату",
+              "dictId": 55,
+              "primary": false,
+              "code": "TITLE_PRESENT"
+            },
+            "value": "удалённо: нед. (2/2)"
+          },
+          {
+            "attr": {
+              "id": 253,
+              "name": "Приоритет вывода",
+              "dictId": 55,
+              "primary": false,
+              "code": "PRIORITY"
+            },
+            "value": "6"
+          },
+          {
+            "attr": {
+              "id": 254,
+              "name": "Период",
+              "dictId": 55,
+              "primary": false,
+              "code": "PERIOD"
+            },
+            "value": "с {startDate} по {endDate}"
+          },
+          {
+            "attr": {
+              "id": 255,
+              "name": "Формат даты",
+              "dictId": 55,
+              "primary": false,
+              "code": "DATE_FORMAT"
+            },
+            "value": "dd.MM"
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "size": 10000,
+      "number": 1,
+      "hasNext": false,
+      "pages": 1,
+      "totalElements": 5
+    }
+  },
+  "success": true,
+  "message": null,
+  "traceId": null
+}
+
+-------------------------
+
+
+{
+  "data": null,
+  "success": false,
+  "message": "Справочник не найден",
+  "traceId": "ca7e807aeb189e51:03960f695fa394c8"
+}
+
+----------------
+{
+  "data": {
+    "data": [
+      {
+        "entryId": 6539,
+        "attrVals": [
+          {
+            "attr": {
+              "id": 75,
+              "name": "Код",
+              "dictId": 55,
+              "primary": true,
+              "code": "CODE"
+            },
+            "value": "00"
+          },
+          {
+            "attr": {
+              "id": 76,
+              "name": "Краткое наименование",
+              "dictId": 55,
+              "primary": false,
+              "code": "SHORTNAME"
+            },
+            "value": "В офисе"
+          },
+          {
+            "attr": {
+              "id": 77,
+              "name": "Тип рабочего места",
+              "dictId": 55,
+              "primary": false,
+              "code": "TYPE"
+            },
+            "value": "В офисе"
+          },
+          {
+            "attr": {
+              "id": 78,
+              "name": "Подробное описание",
+              "dictId": 55,
+              "primary": false,
+              "code": "FULLNAME"
+            },
+            "value": "Постоянная работа в офисе"
+          },
+          {
+            "attr": {
+              "id": 81,
+              "name": "Код типа рабочего места",
+              "dictId": 55,
+              "primary": false,
+              "code": "TYPE_CODE"
+            },
+            "value": ""
+          },
+          {
+            "attr": {
+              "id": 251,
+              "name": "Бейдж/Тег",
+              "dictId": 55,
+              "primary": false,
+              "code": "BADGE"
+            },
+            "value": ""
+          },
+          {
+            "attr": {
+              "id": 252,
+              "name": "Подпись на текущую дату",
+              "dictId": 55,
+              "primary": false,
+              "code": "TITLE_PRESENT"
+            },
+            "value": ""
+          },
+          {
+            "attr": {
+              "id": 253,
+              "name": "Приоритет вывода",
+              "dictId": 55,
+              "primary": false,
+              "code": "PRIORITY"
+            },
+            "value": ""
+          },
+          {
+            "attr": {
+              "id": 254,
+              "name": "Период",
+              "dictId": 55,
+              "primary": false,
+              "code": "PERIOD"
+            },
+            "value": ""
+          },
+          {
+            "attr": {
+              "id": 255,
+              "name": "Формат даты",
+              "dictId": 55,
+              "primary": false,
+              "code": "DATE_FORMAT"
+            },
+            "value": ""
+          }
+        ]
+      },
+      {
+        "entryId": 6540,
+        "attrVals": [
+          {
+            "attr": {
+              "id": 75,
+              "name": "Код",
+              "dictId": 55,
+              "primary": true,
+              "code": "CODE"
+            },
+            "value": "01"
+          },
+          {
+            "attr": {
+              "id": 76,
+              "name": "Краткое наименование",
+              "dictId": 55,
+              "primary": false,
+              "code": "SHORTNAME"
+            },
+            "value": "Дистанционный труд"
+          },
+          {
+            "attr": {
+              "id": 77,
+              "name": "Тип рабочего места",
+              "dictId": 55,
+              "primary": false,
+              "code": "TYPE"
+            },
+            "value": "Дистанционный труд"
+          },
+          {
+            "attr": {
+              "id": 78,
+              "name": "Подробное описание",
+              "dictId": 55,
+              "primary": false,
+              "code": "FULLNAME"
+            },
+            "value": "Постоянная дистанционная работа"
+          },
+          {
+            "attr": {
+              "id": 81,
+              "name": "Код типа рабочего места",
+              "dictId": 55,
+              "primary": false,
+              "code": "TYPE_CODE"
+            },
+            "value": "ALL_TIME"
+          },
+          {
+            "attr": {
+              "id": 251,
+              "name": "Бейдж/Тег",
+              "dictId": 55,
+              "primary": false,
+              "code": "BADGE"
+            },
+            "value": "Дистанс"
+          },
+          {
+            "attr": {
+              "id": 252,
+              "name": "Подпись на текущую дату",
+              "dictId": 55,
+              "primary": false,
+              "code": "TITLE_PRESENT"
+            },
+            "value": "удалённо"
+          },
+          {
+            "attr": {
+              "id": 253,
+              "name": "Приоритет вывода",
+              "dictId": 55,
+              "primary": false,
+              "code": "PRIORITY"
+            },
+            "value": "6"
+          },
+          {
+            "attr": {
+              "id": 254,
+              "name": "Период",
+              "dictId": 55,
+              "primary": false,
+              "code": "PERIOD"
+            },
+            "value": "с {startDate} по {endDate}"
+          },
+          {
+            "attr": {
+              "id": 255,
+              "name": "Формат даты",
+              "dictId": 55,
+              "primary": false,
+              "code": "DATE_FORMAT"
+            },
+            "value": "dd.MM"
+          }
+        ]
+      },
+      {
+        "entryId": 6541,
+        "attrVals": [
+          {
+            "attr": {
+              "id": 75,
+              "name": "Код",
+              "dictId": 55,
+              "primary": true,
+              "code": "CODE"
+            },
+            "value": "02"
+          },
+          {
+            "attr": {
+              "id": 76,
+              "name": "Краткое наименование",
+              "dictId": 55,
+              "primary": false,
+              "code": "SHORTNAME"
+            },
+            "value": "Смешанный труд по дням"
+          },
+          {
+            "attr": {
+              "id": 77,
+              "name": "Тип рабочего места",
+              "dictId": 55,
+              "primary": false,
+              "code": "TYPE"
+            },
+            "value": "Смешанный труд"
+          },
+          {
+            "attr": {
+              "id": 78,
+              "name": "Подробное описание",
+              "dictId": 55,
+              "primary": false,
+              "code": "FULLNAME"
+            },
+            "value": "Смешанная дистанционная работа по дням"
+          },
+          {
+            "attr": {
+              "id": 81,
+              "name": "Код типа рабочего места",
+              "dictId": 55,
+              "primary": false,
+              "code": "TYPE_CODE"
+            },
+            "value": "DIFF_WEEKDAYS"
+          },
+          {
+            "attr": {
+              "id": 251,
+              "name": "Бейдж/Тег",
+              "dictId": 55,
+              "primary": false,
+              "code": "BADGE"
+            },
+            "value": "Дистанс"
+          },
+          {
+            "attr": {
+              "id": 252,
+              "name": "Подпись на текущую дату",
+              "dictId": 55,
+              "primary": false,
+              "code": "TITLE_PRESENT"
+            },
+            "value": "удалённо: {days}"
+          },
+          {
+            "attr": {
+              "id": 253,
+              "name": "Приоритет вывода",
+              "dictId": 55,
+              "primary": false,
+              "code": "PRIORITY"
+            },
+            "value": "6"
+          },
+          {
+            "attr": {
+              "id": 254,
+              "name": "Период",
+              "dictId": 55,
+              "primary": false,
+              "code": "PERIOD"
+            },
+            "value": "с {startDate} по {endDate}"
+          },
+          {
+            "attr": {
+              "id": 255,
+              "name": "Формат даты",
+              "dictId": 55,
+              "primary": false,
+              "code": "DATE_FORMAT"
+            },
+            "value": "dd.MM"
+          }
+        ]
+      },
+      {
+        "entryId": 6542,
+        "attrVals": [
+          {
+            "attr": {
+              "id": 75,
+              "name": "Код",
+              "dictId": 55,
+              "primary": true,
+              "code": "CODE"
+            },
+            "value": "03"
+          },
+          {
+            "attr": {
+              "id": 76,
+              "name": "Краткое наименование",
+              "dictId": 55,
+              "primary": false,
+              "code": "SHORTNAME"
+            },
+            "value": "Смешанный, неделя через неделю"
+          },
+          {
+            "attr": {
+              "id": 77,
+              "name": "Тип рабочего места",
+              "dictId": 55,
+              "primary": false,
+              "code": "TYPE"
+            },
+            "value": "Смешанный труд"
+          },
+          {
+            "attr": {
+              "id": 78,
+              "name": "Подробное описание",
+              "dictId": 55,
+              "primary": false,
+              "code": "FULLNAME"
+            },
+            "value": "Смешанная дистанционная работа неделя через неделю"
+          },
+          {
+            "attr": {
+              "id": 81,
+              "name": "Код типа рабочего места",
+              "dictId": 55,
+              "primary": false,
+              "code": "TYPE_CODE"
+            },
+            "value": "WEEK_AFTER_WEEK"
+          },
+          {
+            "attr": {
+              "id": 251,
+              "name": "Бейдж/Тег",
+              "dictId": 55,
+              "primary": false,
+              "code": "BADGE"
+            },
+            "value": "Дистанс"
+          },
+          {
+            "attr": {
+              "id": 252,
+              "name": "Подпись на текущую дату",
+              "dictId": 55,
+              "primary": false,
+              "code": "TITLE_PRESENT"
+            },
+            "value": "удалённо: нед. (1/1)"
+          },
+          {
+            "attr": {
+              "id": 253,
+              "name": "Приоритет вывода",
+              "dictId": 55,
+              "primary": false,
+              "code": "PRIORITY"
+            },
+            "value": "6"
+          },
+          {
+            "attr": {
+              "id": 254,
+              "name": "Период",
+              "dictId": 55,
+              "primary": false,
+              "code": "PERIOD"
+            },
+            "value": "с {startDate} по {endDate}"
+          },
+          {
+            "attr": {
+              "id": 255,
+              "name": "Формат даты",
+              "dictId": 55,
+              "primary": false,
+              "code": "DATE_FORMAT"
+            },
+            "value": "dd.MM"
+          }
+        ]
+      },
+      {
+        "entryId": 6543,
+        "attrVals": [
+          {
+            "attr": {
+              "id": 75,
+              "name": "Код",
+              "dictId": 55,
+              "primary": true,
+              "code": "CODE"
+            },
+            "value": "04"
+          },
+          {
+            "attr": {
+              "id": 76,
+              "name": "Краткое наименование",
+              "dictId": 55,
+              "primary": false,
+              "code": "SHORTNAME"
+            },
+            "value": "Смешанный,две недели через две"
+          },
+          {
+            "attr": {
+              "id": 77,
+              "name": "Тип рабочего места",
+              "dictId": 55,
+              "primary": false,
+              "code": "TYPE"
+            },
+            "value": "Смешанный труд"
+          },
+          {
+            "attr": {
+              "id": 78,
+              "name": "Подробное описание",
+              "dictId": 55,
+              "primary": false,
+              "code": "FULLNAME"
+            },
+            "value": "Смешанная дистанционная работа две недели через две недели"
+          },
+          {
+            "attr": {
+              "id": 81,
+              "name": "Код типа рабочего места",
+              "dictId": 55,
+              "primary": false,
+              "code": "TYPE_CODE"
+            },
+            "value": "WEEK2_AFTER_WEEK2"
+          },
+          {
+            "attr": {
+              "id": 251,
+              "name": "Бейдж/Тег",
+              "dictId": 55,
+              "primary": false,
+              "code": "BADGE"
+            },
+            "value": "Дистанс"
+          },
+          {
+            "attr": {
+              "id": 252,
+              "name": "Подпись на текущую дату",
+              "dictId": 55,
+              "primary": false,
+              "code": "TITLE_PRESENT"
+            },
+            "value": "удалённо: нед. (2/2)"
+          },
+          {
+            "attr": {
+              "id": 253,
+              "name": "Приоритет вывода",
+              "dictId": 55,
+              "primary": false,
+              "code": "PRIORITY"
+            },
+            "value": "6"
+          },
+          {
+            "attr": {
+              "id": 254,
+              "name": "Период",
+              "dictId": 55,
+              "primary": false,
+              "code": "PERIOD"
+            },
+            "value": "с {startDate} по {endDate}"
+          },
+          {
+            "attr": {
+              "id": 255,
+              "name": "Формат даты",
+              "dictId": 55,
+              "primary": false,
+              "code": "DATE_FORMAT"
+            },
+            "value": "dd.MM"
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "size": 10000,
+      "number": 1,
+      "hasNext": false,
+      "pages": 1,
+      "totalElements": 5
+    }
+  },
+  "success": true,
+  "message": null,
+  "traceId": null
+}
